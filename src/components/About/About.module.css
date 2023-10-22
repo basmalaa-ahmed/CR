@@ -1,0 +1,77 @@
+.icon{
+    font-size: 40px;
+    color: #00c0ce;
+}
+.main{
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #00c0ce;
+    position: absolute;
+}
+.heading{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.p{
+    color: #888;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 15px;
+  
+}
+.title{
+    font-size: 25px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+    color: #444;
+    text-transform: uppercase;
+    position: relative;
+   
+}
+.title::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #00c0ce;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.header{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 0;
+}
+.img{
+    background: rgba(0,0,0,.2);
+    background-image: url(../../../src/Assets/images/b1.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    min-height: 500px;
+    position: relative;
+}
+.img::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 10px solid rgba(255,255,255,.2);
+}
+@media screen and (max-width: 600px){
+   .title{
+    margin-top: 30px;
+   }
+}

@@ -1,0 +1,57 @@
+
+body{
+  font-family: "Roboto", sans-serif;
+
+}
+h5{
+  font-size: 25px;
+  margin-bottom: 70px;
+  padding-bottom: 30px;
+  color: #444;
+  text-transform: uppercase;
+  position: relative;
+}
+h5::after{
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #00c0ce;
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+}
+h6{
+  text-transform: uppercase;
+  margin: 25px auto 20px;
+  color: #555;
+  font-weight: 400;
+}
+p{
+  color: #888;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 15px;
+}
+.carousel-indicators [data-bs-target] {
+  text-indent: unset !important;
+  width: 0px !important;
+  height: 0px !important;
+  display: contents;
+ 
+}
+.carousel-indicators{
+  position: relative !important;
+  bottom: -190px !important;
+  
+}
+@media screen and (min-width:300px) {
+  .carousel-indicators{
+    position: relative !important;
+    bottom: -220px !important;
+    
+  }
+}
+
+
+

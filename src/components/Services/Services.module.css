@@ -1,0 +1,9 @@
+.icon{
+    font-size: 40px;
+    color: #00c0ce;
+}
+.item{
+    padding: 50px 30px;
+    box-shadow: 0px 10px 30px #f4f4f4;
+    margin-bottom: 30px;
+}

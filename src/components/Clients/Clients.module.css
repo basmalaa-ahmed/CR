@@ -1,0 +1,36 @@
+.clients{
+    background-image: url(../../Assets/images/1\ \(2\).jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.layout{
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+}
+.title{
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+span{
+    width:35px;
+    height: 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.text{
+    color: #00c0ce;
+    font-size: 22px;
+  
+}
+.icon{
+    color: #00c0ce;
+}
+
+

@@ -1,0 +1,32 @@
+.home{
+    background-image: url(../../../src/Assets/images/bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.layout{
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode:overlay ;
+}
+.caption{
+    text-transform:uppercase;
+    color: #fff;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+.text{
+    font-weight: 900;
+    font-size: 70px;
+    margin: 30px auto;
+}
+.text6{
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.button{
+    padding: 8px 30px;
+    font-weight: 400;
+    font-size: 14px;
+}

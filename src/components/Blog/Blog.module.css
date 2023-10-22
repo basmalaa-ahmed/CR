@@ -1,0 +1,29 @@
+.content{
+    padding: 20px;
+    box-shadow: 0px 0px 2px #eee;
+}
+.date{
+    padding: 10px 0px 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    gap: 10px;
+}
+.datesp{
+    margin-right: 20px;
+    color: #777;
+}
+.more{
+    cursor: pointer;
+}
+.more:hover{
+border-bottom: 1px solid #84dcff;
+}
+.icon{
+    color: #84dcff;
+}
+@media screen and (min-width:300px) {
+    .datesp{
+        margin-right: 10px;
+    }
+    
+}
